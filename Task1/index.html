@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="titlle"><span>Task1 :</span> Build a "Responsive Multimedia Form Page"</h1>
+        <form action="/submit-form" class="form-container">
+            <label for="name">Username : </label>
+            <input type="text" id="name" placeholder=""> <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="Password" placeholder=""> <br><br>
+
+            <label for="email">Email id : </label>
+            <input type="email" id="email" placeholder=""> <br><br>
+            <div class="radio-section">
+                <h3>Select Gender</h3>
+                <input type="radio" name="Gender" value="male">Male
+                <input type="radio" name="Gender" value="Female">Female
+                <input type="radio" name="Gender" value="Others">Others
+            </div>
+
+            <div class="checkbox-section">
+                <h3>Select Known Languages</h3>
+                <label><input type="checkbox">HTML </label><br>
+                <label><input type="checkbox">Css </label><br>
+                <label><input type="checkbox">Bootstrap </label><br>
+                <label><input type="checkbox">Javascript</label><br>
+                <label><input type="checkbox">Python </label><br>
+                <label><input type="checkbox">Sql </label><br>
+                <label><input type="checkbox">Django </label><br>
+            </div>
+
+            <div class="textarea_section">
+                <h3>Feedback </h3>
+                <textarea name="Feedback" id="Feedback" rows="5" cols="30"></textarea>
+            </div>
+
+            <div class="iframe-section">
+                <h3>Play Video</h3>
+                <iframe src="https://www.youtube.com/embed/rUksccBqbtU?si=EK3KQwXojqanG7Yz" title="YouTube video player"
+                    frameborder="0"></iframe>
+            </div>
+
+            <div class="auido-section">
+                <h3>Play Song</h3>
+                <audio controls>
+                    <source
+                        src="https://download.mobcup.love//audio/ea068f4aa97ba9b554901078fb628719/L3TkhLK5f8IwaaZpgdG4SWA1QIO7T8A5N2I5R6c5L2Prcbz7ibtJaZowWtpqa4TsO5noib1ud5NojeJuLnPyfXB0kMM=.mp3">
+                </audio>
+            </div>
+
+            <div class="position-section">
+                <h3>Positioning</h3>
+                <div class="img-1">
+                    <img src="https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=808&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="img-2">
+                    <img src="https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
