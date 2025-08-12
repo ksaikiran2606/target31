@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="main-container">
+
+        <center>
+            <div class="display-perporties ">
+                <h1>Display Perporties</h1>
+                <h2>Block</h2>
+                <h3>Inline</h3>
+                <h4>Inline block</h4>
+            </div>
+
+            <div class="key-frames">
+                <h1>Key Frames</h1>
+                <div class="keyFrameCon">
+                    <div class="box1 bounce">Bounce</div>
+                    <div class="box2 fade">Spin</div>
+                    <div class="box3 spin">Fade</div>
+                </div>
+            </div>
+
+            <div class="jreEnvi">
+                <h1>Javascript Runtime Environment</h1>
+                <div class="jre-img">
+                    <img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7dlps29vwzbuskebux0b.png"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="bg-conatiner text-center">
+                <h1 class="heading">Traffic Light</h1>
+                <div class="d-flex flex-row justify-content-center taffic-light-container">
+                    <div class="d-flex flex-column justify-content-center button-container">
+                        <button id="stopButton" onclick="stopButtonFun()">Stop</button>
+                        <button id="readyButton" onclick="readyButtonFun()">Ready</button>
+                        <button id="goButton" onclick="goButtonFun()">Go</button>
+                    </div>
+                    <div class="signalLightContainer d-flex flex-column justify-content-center text-center">
+                        <div id="stopLight"></div>
+                        <div id="readyLight"></div>
+                        <div id="goLight"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </center>
+
+    </div>
+    <script src="task2.js"></script>
+</body>
+
+</html>

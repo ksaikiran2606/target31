@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background: linear-gradient(#2A7B9B,#DCECF2);
+    height: auto;
+    width: 100%;
+    padding: 0.5rem;
+}
+.display-perporties h1{
+  text-align: center;
+}
+.display-perporties h2{
+    background-color: white;
+    color: red;
+}
+.display-perporties h3{
+    background-color: orange;
+    color: blue;
+    display: inline;
+    margin-top: 6px;
+    padding: 5px;
+}
+.display-perporties h4{
+    background-color: navy;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+.display-perporties{
+    padding: 1rem;
+    width: 90%;
+    background-color: aliceblue;
+    margin: 0.5rem;
+}
+
+.key-frames{
+    padding: 1rem;
+    width: 90%;
+    background-color: aliceblue;
+    margin: 0.5rem;
+}
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  animation: bounce 1s ease-in-out 0s infinite alternate both;
+  margin: 0.2rem;
+}
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 144);
+  animation: spin 1s linear infinite; 
+  border-radius: 0.2rem;
+  text-align: center;
+  margin: 0.2rem;
+  line-height: 100px; 
+  color: white;
+  font-weight: bold;
+}
+.box3{
+  width: 100px;
+  height: 100px;
+  background-color: #eeff00;
+  text-align: center;
+  animation: fade  2s linear infinite;
+  margin: 0.2rem;
+  
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes fade {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.keyFrameCon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.key-frames h1{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.jreEnvi{
+  width: 90%;
+  background-color: aliceblue;
+  margin: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.jre-img{
+  height: 50%;
+  width: 50%;
+  background-size: cover;
+}
+.jreEnvi > .jre-img img {
+  width: 100%;
+  height: auto; 
+  background-size: cover;
+}
+.jreEnvi h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
+.bg-conatiner {
+    background-color: #86d2f2;
+    height: 100%;
+    width: 80%;
+}
+
+.heading {
+    font-family: 60px;
+    font-family: "Roboto";
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.signalLightContainer {
+    height: 250px;
+    width: 100px;
+    background-color: #1f1d41;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.button-container {
+    height: 250px;
+    width: 100px;
+    border-radius: 30px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#stopLight {
+    height: 60px;
+    width: 60px;
+    background-color: #4b5069;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#readyLight {
+    height: 60px;
+    width: 60px;
+    background-color: #4b5069;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#goLight {
+    height: 60px;
+    width: 60px;
+    background-color: #4b5069;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#stopButton {
+    margin-bottom: 40px;
+    width: 70px;
+    height: 30px;
+    background-color: #1f1d41;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#readyButton {
+    margin-bottom: 30px;
+    width: 70px;
+    height: 30px;
+    background-color: #1f1d41;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#goButton {
+    width: 70px;
+    height: 30px;
+    background-color: #1f1d41;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.taffic-light-container {
+    align-content: center;
+    margin-top: 80px;
+    padding: 10px;
+}
