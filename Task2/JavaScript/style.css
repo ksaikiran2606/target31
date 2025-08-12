@@ -1,0 +1,17 @@
+.inputTagCon{
+    background-color: aqua;
+    height: 25%;
+    width: 90%;
+    text-align: center;
+    padding: 25px;
+}
+.inputTagCon input{
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+    margin-left: 15px;
+}
+.buttonCon{
+    margin: 1rem;
+}
+
