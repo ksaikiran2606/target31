@@ -1,0 +1,11 @@
+.main-content{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    padding: 2rem;
+}
+
+.main-content > img{
+    width: 100%;
+    border-radius: 1rem;
+}
